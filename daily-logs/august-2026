@@ -10,3 +10,9 @@
 *   **My work** I turned the ICMR AMRSN annual reports turned into a structured, citable dataset, as a second research piece alongside the TB letter to the editor submitted for approval on 25 August 2026 to the Indian Journal of TB.
 *   **Progress** V1 pipeline done for *E. coli* and *K. pneumoniae* (2017–2024, across 3 report editions), every number verified against the actual source PDFs. Caught one real cross-edition data revision ICMR made silently. 3 more organisms (*A. baumannii*, *P. aeruginosa*, MRSA) in progress via Claude Code.
 *   **Repository** yashita-icmr-amr-tracker (Created today - 26 August 2026) 
+
+
+### August 26, 2026
+*   **Focus:** Shipped V2 of the AMR surveillance tracker: Regional Centre (RC) breakdowns.
+*   **Progress** V2 begins. 
+*   **Repository** icmr-amr-tracker (Edited today - 26 August 2026) 
