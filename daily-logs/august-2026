@@ -1,19 +1,45 @@
 ### August 25, 2026
-*   **Academic Focus:** Submitted my first-ever research paper on TB to the Indian Journal of Tuberculosis (before med-school)
-*   **Progress:** Waiting for approval.
-*   **Title** Comment on: AI-Assisted Chest X-Ray Screening for Tuberculosis in ResourceLimited Settings: Reflections on a Recent Multi-Centre Study from Chhattisgarh
+*   **Academic Focus:** 
+        - Submitted my first-ever research paper on TB to the Indian Journal of Tuberculosis (before med-school)
+*   **Progress:** 
+        - Waiting for approval.
+*   **Title** 
+        - Comment on: AI-Assisted Chest X-Ray Screening for Tuberculosis in ResourceLimited Settings: Reflections on a Recent Multi-Centre Study from Chhattisgarh
 
 
 ### August 26, 2026
-*   **Focus:** Built and verified an open-source AMR surveillance tracker. 
-*   **About** The Indian Council of Medical Research (ICMR) operates the Antimicrobial Resistance Research & Surveillance Network (AMRSN) to track and report drug-resistant infection patterns across India.
-*   **My work** I turned the ICMR AMRSN annual reports turned into a structured, citable dataset, as a second research piece alongside the TB letter to the editor submitted for approval on 25 August 2026 to the Indian Journal of TB.
-*   **Progress** V1 pipeline done for E. coli and K. pneumoniae (2017–2024, across 3 report editions), every number verified against the actual source PDFs. Found one case where a published denominator changed between two report editions, normal in surveillance data as isolate counts get reconciled, but worth tracking since it means the same year can carry two slightly different numbers depending on which edition you cite. 3 more organisms (A. baumannii, P. aeruginosa, MRSA) in progress.
+*   **Focus:** 
+        - Built and verified an open-source AMR surveillance tracker. 
+*   **About** 
+        - The Indian Council of Medical Research (ICMR) operates the Antimicrobial Resistance Research & Surveillance Network (AMRSN) 
+        - To track and report drug-resistant infection patterns across India.
+*   **My work** 
+        - I turned the ICMR AMRSN annual reports turned into a structured, citable dataset.
+        - As a second research piece alongside the TB letter to the editor submitted for approval on 25 August 2026 to the Indian Journal of TB.
+*   **Progress** 
+        - V1 pipeline done for E. coli and K. pneumoniae (2017–2024, across 3 report editions)
+        - Every number verified against the actual source PDFs. 
+        - Found one case where a published denominator changed between two report editions, normal in surveillance data as isolate counts get reconciled,  
+               but worth tracking since it means the same year can carry two slightly different numbers depending on which edition you cite. 
+        - 3 more organisms (A. baumannii, P. aeruginosa, MRSA) in progress.
 
 
 ### August 31, 2026
-*   **Focus** Shipped V2 of the AMR surveillance tracker, Regional Centre (RC) breakdowns.
-*   **My work** Extended the dataset beyond national trends to RC-wise antimicrobial susceptibility data for E. coli, K. pneumoniae, and S. aureus, the three organisms ICMR publishes RC-wise tables for. Built a panel-change flag so RC codes are never compared across editions without accounting for network changes: the RC codes aren't mapped to institution names in any published report, and the participating network itself grew between 2022 and 2024 (two hospitals joined; one RC code stops appearing in the 2024 tables).
-*   **Findings** A handful of RC-level cells across editions show a printed percentage that doesn't fully reconcile with the raw counts alongside it, reported exactly as published rather than adjusted, since correcting it would mean guessing rather than citing. Cross-edition revision detection returns empty here by design, since RC-level tables are single-year snapshots with no year-over-year axis to compare, documented clearly so it reads as "not applicable" rather than "didn't work."
-*   **Progress** V2 complete, 1,365 RC-level rows, 129/129 tests passing, both commits pushed cleanly. README, CHANGELOG, and the site roadmap updated to match.
-*   **Repository** icmr-amr-tracker (same repo, now V1.1 + V2)
+*   **Focus** 
+        - Shipped V2 of the AMR surveillance tracker, Regional Centre (RC) breakdowns.
+*   **My work** 
+        - Extended the dataset beyond national trends to RC-wise antimicrobial susceptibility data for E. coli, K. pneumoniae, and S. aureus, 
+               the 3 organisms ICMR publishes RC-wise tables for. 
+        - Built a panel-change flag so RC codes are never compared across editions without accounting for network changes: 
+              The RC codes aren't mapped to institution names in any published report, 
+              The participating network itself grew between 2022 and 2024 (two hospitals joined; one RC code stops appearing in the 2024 tables).
+*   **Findings** 
+        - A handful of RC-level cells across editions show a printed percentage that doesn't fully reconcile with the raw counts,
+              alongside it, reported exactly as published rather than adjusted, since correcting it would mean guessing rather than citing. 
+              Cross-edition revision detection returns empty here by design, since RC-level tables are single-year snapshots with no year-over-year axis 
+              to compare, documented clearly so it reads as "not applicable" rather than "didn't work."
+*   **Progress** 
+        - V2 complete, 1,365 RC-level rows, 129/129 tests passing, both commits pushed cleanly. 
+        - README, CHANGELOG, and the site roadmap updated to match.
+*   **Repository** 
+        - icmr-amr-tracker (same repo, now V1.1 + V2)
