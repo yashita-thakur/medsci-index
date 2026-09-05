@@ -1,4 +1,17 @@
 ### September 1,2026
 *   **Focus** Working on V3: 
               Researching NCDC NARS-Net's antimicrobial resistance annual reports in depth, to determine exactly what's needed to build a V3 cross-reference 
-              feature for an existing open-source project the "icmr-amr-tracker"
+feature for an existing open-source project the "icmr-amr-tracker"
+
+
+### September 5,2026
+*   **Focus** Next steps for V3: 
+              All 8 NARS-Net editions (2017–2024, NCDC's 2nd national AMR surveillance network, separate from ICMR's AMRSN) now extracted, hand-verified, and pushed. 
+              This closes the data-and-research phase of V3. 
+              (took 5 days: September 1 to September 5, 2026)
+*   **Note**  
+              AMRSN (ICMR's network) publishes only % susceptible and never % intermediate for E. coli or S. aureus. NARS-Net publishes % resistant. 
+                     Since S+I+R=100 and I is unpublished on the AMRSN side.
+                     AMRSN's % resistant cannot be computed, and the two networks can never be joined into one comparison value, only shown as parallel series. 
+              This is enforced structurally: 
+                    separate schemas, separate filenames (no amr_ prefix on NARS-Net exports), a test asserting the two schemas share no measurement column.
