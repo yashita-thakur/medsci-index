@@ -1,7 +1,6 @@
 # medsci-index
-An independent medical research repository cataloging clinical decision algorithms, global healthcare insights, and evidence-based practice models under the MedSci Index framework.
-
 Personal Learning & Research Ledger
+
 **Curated by Yashita Thakur**  
 *Contact: yashitathakur.contact@gmail.com*
 
