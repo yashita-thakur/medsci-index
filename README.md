@@ -1,7 +1,8 @@
 # medsci-index
 Personal Learning & Research Ledger
 
-**NOTE** The AMR Tracker project's idea and early research (ICMR-AMRSN & NCDC NARS-Net) goes back to January, paused during NEET preparation. Restarted after Re-Neet 21 June 2026.
+**TIMELINE NOTE** Initial data collection for the "AMR Tracker" project began in September 2025, with the bulk of extraction and verification completed in early 2026. This repository itself,
+was built and organized starting 31 July 2026.
 
 **Curated by Yashita Thakur**  
 *Contact: yashitathakur.contact@gmail.com*
