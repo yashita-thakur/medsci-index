@@ -7,4 +7,4 @@
         - Personal website domain name hunt.
 *   **Whats done?**
         - Hosted my vercel amr tracker. 
-        - Check out the [Google Homepage](https://amrtracker.vercel.app/) for more info.
+        - Check out the [amr tracker](https://amrtracker.vercel.app/)
