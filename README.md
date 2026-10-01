@@ -4,6 +4,9 @@ Personal Learning & Research Ledger
 **TIMELINE NOTE** Initial data collection for the "AMR Tracker" project began in September 2025, with the bulk of extraction and verification completed in early 2026. This repository itself,
 was built and organized starting 31 July 2026.
 
+**update: 1-10-2026**
+Check out the [amr tracker](https://amrtracker.vercel.app/) - I will host my own website soon. 
+
 **Curated by Yashita Thakur**  
 *Contact: yashitathakur.contact@gmail.com*
 
