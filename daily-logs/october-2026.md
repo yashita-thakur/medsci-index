@@ -15,3 +15,11 @@
 *   The note above is an announcement released by Indian Journal of Tuberculosis.
 *   My submission is still being processed.
 *   <img width="1917" height="972" alt="Screenshot 2026-10-07 223956" src="https://github.com/user-attachments/assets/2fb76094-c091-4e41-8133-c52dd576a700" />
+
+
+### October 26, 2026
+*   The first two weeks of med school.
+*   **Academic Focus:** 
+        - It’s not the complexity that hits first. it’s the sheer volume.
+*   **Progress:** 
+        - Daily consistency over weekend cramming.
